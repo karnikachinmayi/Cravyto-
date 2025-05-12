@@ -1,0 +1,439 @@
+body{
+   margin: 0px ;
+   padding: 0px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.box-1{
+      height:450px;
+      width:100vw;
+      background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+      background-size: cover;
+}
+.navbar-1{
+      height:50px;
+      width:100vw;
+      background-color: transparent;
+      display: flex;
+      align-items: center;
+      color: white;
+}
+.get-app i{
+      font-size:  10px;
+      margin-right: 4px;
+}
+.get-app{
+      margin-left:150px ;
+      font-size: 12px;
+}
+.investor{
+      margin-left:400px ;
+      font-weight: 50;
+      font-size:16px ;
+}
+.add-rest{
+      margin-left:40px;
+      font-weight: 50;
+      font-size:16px ;
+}
+.login,.signup{
+      margin-left:40px;
+      font-weight: 50;
+      font-size:16px ;
+}
+.heading{
+      height:200px ;
+      width:100vw ;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 900;
+      font-size: 40px;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: white;
+}
+.discover{
+      height: 100px;
+      width:100vw ;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size:30px ;
+      margin-top: -60px;
+      font-weight: 100;
+}
+.search-box{
+      height: 40px;
+      width:700px ;
+      border:1px solid white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;  
+      border-radius: 10px;
+      margin-left: 235px;
+}
+.search-box select{
+      font-size: 13px;
+      color: gray;
+      height:40px;
+      width:150px;
+      text-align: center;  
+      border: none; 
+      outline: none;
+}
+.search-box i{
+      font-size:20px;
+      color: rgb(245, 127, 42);
+       margin-right: 10px;
+}
+.search{
+      height: 35px;
+      width:500px ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.search input{
+      height:100%;
+      width:100% ;
+      outline: none;
+      border:none;
+}
+
+#id1{
+      color: gray;
+      margin-left:20px;
+}
+.object-1{
+      height:200px ;
+      width:100vw ;
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap:20px;
+}
+.item{
+      height:200px ;
+      width:300px ;
+      border:0.1px solid black;
+      border-radius:10px ;
+      transition: all 0.1s ease-out;
+}
+.item:hover{
+      transform: scale(1.05);
+      cursor: pointer;
+}
+.item img{
+      height:150px ;
+      width:100% ;
+      object-fit: cover;
+      border-radius: 10px 10px 0px 0px;
+}
+.item h3{
+      font-size: 15px;
+      margin:0;
+      margin-left:10px;
+      font-weight: bolder;    
+}
+.item p{
+      font-size: 15px;
+      margin:0 ;
+      margin-left: 11px;
+      font-weight: lighter;
+}
+.collection{
+      height:50px ;
+      width:100vw; 
+      display: flex;
+      align-items:center;
+      font-size: 35px;
+      margin-top:50px;
+      margin-left: 114px;
+}
+.collections-2{
+      height:50px ;
+      width:100vw; 
+      display: flex;
+      align-items: center;
+      font-size: 15px;
+      margin:0;
+      margin-left: 114px;
+      
+}
+.collections-2 a{
+      margin-left: 150px;
+      font-weight: 100;
+      color: red;
+      font-size: 15px;
+}
+.collections-2 a:hover{
+      text-decoration: underline;
+      cursor: pointer;
+}
+.collection-object{
+      height:300px ;
+      width:82vw;
+      margin-top: 0px ;
+      margin-left: 110px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.places1{
+      height:300px ;
+      width:220px ;
+      border-radius: 10px;
+      background-image: url("trending\ spots.png");
+      background-size: cover;
+      transition: all 0.1s ease-out;
+}
+.places1:hover{
+      transform: scale(1.01);
+      cursor: pointer;
+}
+.places1 h3{
+      color:white;
+      margin-top:250px;
+      margin-left: 20px;
+      font-weight: 100;
+      font-size: 15px;
+}
+.places1 p{
+      color: white;
+      margin-left: 20px;
+      margin-top: -10px;
+      font-weight: 100;
+      font-size: 13px;
+}
+.places2{
+      height:300px ;
+      width:220px ;
+      border-radius: 10px;
+      background-image: url("insta.png");
+      background-size: cover;
+      transition: all 0.1s ease-out;
+}
+.places2:hover{
+      transform: scale(1.01);
+      cursor: pointer;
+}
+.places2 h3{
+      color:white;
+      margin-top:250px;
+      margin-left: 20px;
+      font-weight: 100;
+      font-size: 15px;
+}
+.places2 p{
+      color: white;
+      margin-left: 20px;
+      margin-top: -10px;
+      font-weight: 100;
+      font-size: 13px;
+}
+.places3{
+      height:300px ;
+      width:220px ;
+      border-radius: 10px;
+      background-image: url("rooftop.png");
+      background-size: cover;
+      transition: all 0.1s ease-out;
+}
+.places3:hover{
+      transform: scale(1.01);
+      cursor: pointer;
+}
+.places3 h3{
+      color:white;
+      margin-top:250px;
+      margin-left: 20px;
+      font-weight: 100;
+      font-size: 15px;
+}
+.places3 p{
+      color: white;
+      margin-left: 20px;
+      margin-top: -10px;
+      font-weight: 100;
+      font-size: 13px;
+}
+.places4{
+      height:300px ;
+      width:220px ;
+      border-radius: 10px;
+      background-image: url("newly\ opened.png");
+      background-size: cover;
+      transition: all 0.1s ease-out;
+}
+.places4:hover{
+      transform: scale(1.01);
+      cursor: pointer;
+}
+.places4 h3{
+      color:white;
+      margin-top:250px;
+      margin-left: 20px;
+      font-weight: 100;
+      font-size: 15px;
+}
+.places4 p{
+      color: white;
+      margin-left: 20px;
+      margin-top: -10px;
+      font-weight: 100;
+      font-size: 13px;
+}
+.localities{
+      height:50px ;
+      width:100vw ;
+      font-size: 30px;
+      display: flex;
+      align-items:center;
+      margin-top: 120px;
+      font-weight: 100;
+}
+.localities p{
+      margin-left: 100px;
+}
+.areas{
+      height:200px ;
+      width:88vw ;
+      margin-left: 80px;
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+}
+.area{
+      height:70px ;
+      width:300px ;
+      margin:10px ;
+      box-shadow: 1px 1px 1px 1px grey;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap:10px;
+      transition: all 0.1s ease-out;
+}
+.area:hover{
+      transform:scale(1.02);
+      cursor: pointer;
+}
+.name-area{
+      height:60px ;
+      width:220px ;
+}
+.name-area p{
+      margin:0;
+      margin-top:8px;
+      margin-left: 10px;
+      font-size: 20px;
+      opacity:70%;
+}
+#number{
+      font-size: 15px;
+      margin: 0;
+      margin-top: 8px;
+      margin-left: 10px ;
+}
+.icon1{
+      height: 30px ;
+      width:50px ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 15px;
+}
+.download{
+      height:500px ;
+      width:100vw ;
+      background-color: rgb(249, 248, 243);
+      margin-top:200px ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap:100px;
+}
+.mobile{
+      height: 400px;
+      width:400px ;
+      object-fit: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.mobile img{
+      height:400px ;
+      width:300px ;
+}
+.get-Cravyto{
+      height: 400px;
+      width:500px ;
+}
+.get-Cravyto h1{
+      font-weight: 100;
+}
+.get-Cravyto p{
+      font-weight: 100;
+      font-size:15px;
+      opacity: 70%;
+}
+#email{
+      accent-color: red;
+      margin-top:20px;
+}
+#phone{
+      accent-color: red;
+      margin-top:20px;
+      margin-left: 100px;
+}
+#input{
+      height:40px ;
+      width:300px ;
+      border-radius: 6px;
+      border: 0.1px solid black;
+      outline: none; 
+      padding-left: 20px;
+}
+
+#share-link{
+      height:40px ;
+      border-radius: 6px;
+      border: 0.1px solid black;
+      background-color: rgb(241, 100, 100);
+      color: white;
+      margin-left: 10px;
+}
+#share-link:hover{
+      background-color: rgb(249, 51, 51);
+      cursor: pointer;
+}
+#download{
+      color: rgb(97, 95, 95);
+      font-size:13px;
+      margin-top: 30px;
+}
+.sites{
+      height:50px ;
+      width:300px ;
+      display: flex;
+      align-items: center;
+      gap:30px;
+}
+.site{
+      height:30px ;
+      width:120px ;
+      border:1px solid black ;
+      border-radius: 5px;
+      object-fit: contain;
+}
+.site img{
+      height:30px ;
+      width:120px ;
+      border-radius: 5px;
+}
+.site:hover{
+      cursor: pointer;
+}
