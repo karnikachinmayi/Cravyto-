@@ -36,7 +36,7 @@ Welcome to the **Cravyto** DevOps project! This project showcases the complete C
 
 ## 📂 GitHub Repository
 **[Cravyto DevOps GitHub Repo](#)**  
-*(Add your actual repository link here)*
+https://github.com/karnikachinmayi/Cravyto-.git 
 
 ---
 
