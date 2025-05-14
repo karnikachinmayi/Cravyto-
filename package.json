@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "name": "cravyto_clone",
+=======
+    "name": "Cravyto _clone",
+>>>>>>> bfd31e93d0d175aa9b5ee87454b9be196ed0f68e
     "version": "0.1.0",
     "private": true,
     "dependencies": {
