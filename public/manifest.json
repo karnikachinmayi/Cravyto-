@@ -1,14 +1,14 @@
 {
-    "short_name": "Zomato",
-    "name": "Zomato - Food Delivery & Dining",
+    "short_name": "cravyto",
+    "name": "cravyto - Food Delivery & Dining",
     "icons": [
       {
-        "src": "icons/zomato-icon-192.png",
+        "src": "icons/cravyto-icon-192.png",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "icons/zomato-icon-512.png",
+        "src": "icons/cravyto-icon-512.png",
         "type": "image/png",
         "sizes": "512x512"
       },

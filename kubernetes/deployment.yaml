@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: Cravyto 
+  name: cravyto 
   labels:
-    app: Cravyto 
+    app: cravyto 
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: Cravyto
+      app: cravyto
   template:
     metadata:
       labels:
-        app: Cravyto
+        app: cravyto
     spec:
       containers:
-      - name: Cravyto
-        image: karnikachinmayi/Cravyto:latest
+      - name: cravyto
+        image: karnikachinmayi/cravyto:latest
         ports:
         - containerPort: 3000
